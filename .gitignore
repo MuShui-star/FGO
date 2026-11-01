@@ -1,0 +1,76 @@
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 编辑器 / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.py[cod]
+__pycache__/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+*.class
+
+# 日志与缓存
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+tmp/
+temp/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.json
+
+# 测试与覆盖率
+coverage/
+.coverage
+htmlcov/
+*.lcov
+
+# 打包产物
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 工具缓存 / 临时目录
+.screenshots/
+.trae/
+.mcp/
